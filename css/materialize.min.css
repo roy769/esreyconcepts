@@ -12,14 +12,27 @@
  .background-color-three{
    background-color: #ffebee;
  }
+ .card-title{
+   opacity: .8;
+ }
  .content{
    z-index: .1;
  }
- .fish-image{
-   z-index: -.1;
-   position: relative;
-   opacity: .6;
-   mix-blend-mode: overlay;
+ .image{
+   mix-blend-mode: multiply;
+   width: 3rem;
+   height: 4rem;
+ }
+ .logo{
+   font-size: 2.5em;
+   font-family: monospace;
+ }
+ .pedro{
+   mix-blend-mode: multiply;
+ }
+ .responsive {
+   max-width: 100%;
+   height:auto;
  }
  .webLink{
    mix-blend-mode: multiply;
