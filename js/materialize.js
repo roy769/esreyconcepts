@@ -24,7 +24,6 @@ if (typeof jQuery === 'undefined') {
   * All rights reserved.
   * https://raw.github.com/gdsmith/jquery-easing/master/LICENSE
   */
-
 (function (factory) {
   if (typeof define === "function" && define.amd) {
     define(['jquery'], function ($) {
@@ -5451,7 +5450,7 @@ if (Vel) {
         if ($card.data('initialOverflow') === undefined) {
           $card.data('initialOverflow', $card.css('overflow') === undefined ? '' : $card.css('overflow'));
         }
-        if ($(e.target).is($('.card-reveal .card-title')) || $(e.target).is($('.card-reveal .card-title i'))) {
+        if ($(e.target).is($('.card-reveal .card-title')) || $(e.target).is($('.card-revealz .card-title i'))) {
           // Make Reveal animate down and display none
           $(this).find('.card-reveal').velocity({ translateY: 0 }, {
             duration: 225,
@@ -5468,6 +5467,7 @@ if (Vel) {
         }
       }
     });
+
   });
 })(jQuery);
 ;(function ($) {
