@@ -36,10 +36,7 @@
     font-size: 48px;
   }
 
- .pedro{
-   mix-blend-mode: multiply;
- }
- .responsive {
+.responsive {
    max-width: 100%;
    height:auto;
  }
